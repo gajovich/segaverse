@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Log in</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230618104626" />
+	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="page page__login-email login-page">
+			<div class="login-page__body">
+				<div class="login-page__content">
+					<img src="img/login/login.svg" alt="login" class="login-page__content-image" />
+					<h1 class="login-page__title">Welcome to Sagaverse</h1>
+					<p class="login-page__text">Sign in to your Sagaverse account</p>
+					<form action="#" class="login-page__form form">
+						<div class="form__row">
+							<label for="email" class="form__label">Email</label>
+							<input id="email" autocomplete="off" type="email" name="email" placeholder="Enter your email" class="form__input" />
+						</div>
+						<div class="form__row">
+							<label for="password" class="form__label">Password</label>
+							<div class="form__input-wrapper">
+								<input id="password" autocomplete="off" type="password" name="password" placeholder="Enter your password" class="form__input" />
+								<button class="form__input-eye" type="button">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#eye-off"></use>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="form__actions">
+							<div class="checkbox">
+								<input id="remember" class="checkbox__input" type="checkbox" value="1" name="remember" />
+								<label for="remember" class="checkbox__label">
+									<span class="checkbox__text">Remember for 30 days</span>
+								</label>
+							</div>
+							<a href="#" class="form__forgot">Forgot password</a>
+						</div>
+						<button type="submit" class="form__button login-page__button-email">Sign in</button>
+					</form>
+					<a href="#" class="login-page__button">
+						<img src="img/icons/google.svg" alt="google" />
+						Sign in with Google
+					</a>
+					<p class="login-page__text-bottom">
+						Don’t have an account? <a href="sign.html">Sign up</a>
+					</p>
+				</div>
+				<footer class="login-page__footer">
+					<div class="login-page__copy">&copySAGAVERSE 2077</div>
+					<a href="mailto: help@sagaverse.com" class="login-page__mail">
+						<svg class="login-page__mail-img">
+							<use xlink:href="img/icons/icons.svg#letter"></use>
+						</svg>
+						help@sagaverse.com
+					</a>
+				</footer>
+			</div>
+			<div class="login-page__image">
+				<img src="img/login/login-image.svg" alt="logo" />
+			</div>
+		</main>
+	</div>
+	<script src="js/app.min.js?_v=20230618104626"></script>
+</body>
+
+</html>
